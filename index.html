@@ -135,12 +135,13 @@ a{color:inherit;}
 }
 
 .logo{
+  display:block;
   width:96px;
   height:96px;
   border-radius:50%;
   object-fit:cover;
   border:3px solid var(--gold);
-  margin-bottom:22px;
+  margin:0 auto 22px;
   box-shadow:0 0 0 6px rgba(217,168,90,.08), 0 20px 40px rgba(0,0,0,.5);
 }
 
@@ -442,7 +443,7 @@ a:focus-visible, .btn:focus-visible{
     </p>
 
     <a class="btn" href="https://t.me/+ESWniVG8o2k0NmZl" target="_blank" rel="noopener noreferrer">
-      🚀 Join Free Learning Community
+      🚀 Join Free Telegram Learning Community
     </a>
 
     <div class="small-text">EDUCATIONAL PURPOSE ONLY · NO GUARANTEED RETURNS</div>
@@ -528,7 +529,7 @@ a:focus-visible, .btn:focus-visible{
 </section>
 
 <!-- DISCLAIMER -->
-<section class="disclaimer">
+<section class="disclaimer" id="disclaimer">
   <div class="container">
     <div class="disclaimer-box">
 
@@ -554,13 +555,42 @@ a:focus-visible, .btn:focus-visible{
   </div>
 </section>
 
+<!-- LEGAL -->
+<section class="disclaimer" id="legal">
+  <div class="container">
+    <div class="disclaimer-box" id="privacy-policy">
+      <h3>🔒 Privacy Policy</h3>
+      <p>
+        We do not collect, store, or request any personal, financial, or
+        payment information (such as bank details, card numbers, or trading
+        account credentials) through this website. Joining our Telegram
+        community is free and optional. Any information you share inside
+        Telegram is governed by Telegram's own privacy policy.
+      </p>
+    </div>
+
+    <div class="disclaimer-box" id="terms" style="margin-top:18px;">
+      <h3>📄 Terms &amp; Conditions</h3>
+      <p>
+        By joining TRADER MUNAAF, you agree that all content shared is for
+        educational purposes only. We do not provide personalized investment
+        advice, buy/sell recommendations, or profit guarantees of any kind.
+        This community is intended for users aged 18 and above.
+      </p>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div>© 2026 TRADER MUNAAF. All Rights Reserved.</div>
+  <div class="small-text" style="margin-top:6px;">
+    Educational community · Not a registered investment advisor · 18+
+  </div>
   <div class="footer-links">
-    <a href="#">Privacy Policy</a>
-    <a href="#">Terms &amp; Conditions</a>
-    <a href="#">Disclaimer</a>
+    <a href="#privacy-policy">Privacy Policy</a>
+    <a href="#terms">Terms &amp; Conditions</a>
+    <a href="#disclaimer">Disclaimer</a>
   </div>
 </footer>
 
